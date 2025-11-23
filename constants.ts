@@ -430,7 +430,7 @@ export const MOCK_PLANS: HealthPlan[] = [
     categories: [CAT_PME_2, CAT_PME_30],
     coverage: 'Regional (Sorocaba, Votorantim e região)',
     gracePeriods: GRACE_PERIOD_STANDARD,
-    copayFees: COPAY_PARTIAL_AMHEMED,
+    copayFees: COPAY_PARTIAL_AMHE_PLUS_PME,
     prices: {
       [AgeRange.RANGE_0_18]: 199.00,
       [AgeRange.RANGE_19_23]: 271.00,
@@ -456,7 +456,7 @@ export const MOCK_PLANS: HealthPlan[] = [
     categories: [CAT_PME_2, CAT_PME_30],
     coverage: 'Regional (Sorocaba, Votorantim e região)',
     gracePeriods: GRACE_PERIOD_STANDARD,
-    copayFees: COPAY_FULL_AMHEMED,
+    copayFees: COPAY_FULL_AMHE_PLUS_PME,
     prices: {
       [AgeRange.RANGE_0_18]: 145.90,
       [AgeRange.RANGE_19_23]: 189.90,
